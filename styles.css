@@ -1,0 +1,156 @@
+
+body
+{
+    display:flex;
+    justify-content: center;
+    background-color: #435B66;
+}
+
+#contenedor
+{
+    width: 1000px;
+      align-items: center;
+    display:flex;
+   gap:2px;/*Espacio entre elementos*/
+   flex-direction: column;
+   
+  padding: 2px;
+  height: 1500px;
+}
+
+#teclado{
+width: 100%;
+      display:grid;
+     grid-template-columns: 1fr 2fr;
+     grid-template-rows: 300px;
+    grid-gap:0px;
+   
+}
+.box{
+    
+    width: 100%;
+
+   
+ 
+}
+.box1{
+    display:flex;
+   flex-direction: row;
+   justify-content: center;
+   border-top-left-radius: 10px;
+   padding: 20px;
+   background-color:#EAB2A0;
+
+ 
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+   border-top-right-radius: 10px;
+   width: 100%;
+   padding: 20px;
+  background-color: #A76F6F;
+ 
+}
+.box3{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+   border-bottom-left-radius: 10px;
+   width: 100%;
+   padding: 20px;
+   background-color:#EAB2A0;
+ 
+}
+.box4{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+   border-bottom-right-radius: 10px;
+   width: 100%;
+   padding: 20px;
+   background-color: white;
+ 
+ 
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+h2{
+    color: rgb(146, 132, 122);
+    font-size: 20px;
+    padding-left: 50px;
+    margin-bottom: 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#EAB2A0;
+}
+h3
+{
+    font-size: 15px;
+    color:#d48a58;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+H5{
+    color:white;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20PX;
+}
+p 
+{
+font-family: Georgia;
+    margin-bottom: 0;
+  color:#4c5155
+}
+
+ul ol{
+font-family: Georgia;
+
+}
+li{font-family: Georgia;
+    color:#2D4356
+}
+#foto{
+    border-color: white;
+   border-style:solid;
+    border-width: 10px;
+}
+.estiloLetra{
+    color:#d48a58;
+    font-weight: bolder ;
+}
+td
+{
+    font-family: Georgia;
+    color: white;
+    
+}
+.icono
+{
+    width: 20px;
+    
+  
+}
+#RedesSociales
+{
+    display:grid;
+    flex-wrap: wrap;
+    gap:20px;/*Espacio entre elementos*/
+    justify-content: center;
+}
+a
+{
+color: black;
+
+}
+
